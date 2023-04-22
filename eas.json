@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">=3.8.1",
+    "requireCommit": false
+  },
+  "build": {
+    "development": {
+      "autoIncrement": true,
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "appleAppStore": {
+      "ios": {
+        "appleId": "james@jamesjhammond.com"
+      }
+    },
+    "googlePlayStore": {
+      "android": {
+      }
+    }
+  }
+}

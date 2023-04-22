@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/react-native/tsconfig.json",
+    "compilerOptions": {
+        "lib": ["dom", "es6"],
+        "esModuleInterop": true,
+        "paths": {
+            "*": ["*"],
+            "tests": ["tests/*"],
+            "@components/*": ["components/*"],
+            "@library/*": ["library/*"],
+        },
+        "baseUrl": ".",
+    }
+    
+}
